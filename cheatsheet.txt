@@ -1,3 +1,6 @@
+• Create a new repo at first (don't generate readme file and make the repo private)
+• then the folder you want to upload open that folder and run git bash there
+
 1) git config --global user.name Nilay
 2) git config --global user.email "adhikarinilay@gmail.com"
 3) git init
