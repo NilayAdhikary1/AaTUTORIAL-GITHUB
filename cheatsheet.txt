@@ -1,6 +1,8 @@
 • Create a new repo at first (don't generate readme file and make the repo private)
 • then the folder you want to upload open that folder and run git bash there
 
+Now run the following commands...
+
 1) git config --global user.name Nilay
 2) git config --global user.email "adhikarinilay@gmail.com"
 3) git init
@@ -18,6 +20,9 @@
 ----------------------------------------------------------------------------------
 
 //Now suppose next day i've updated my file. So now how to push the updated file in github?
+
+////Now no need to do things again. Just open that particular folder and write following commands....
+
 
 1) git add .
 2) git commit -m "Added CheatSheet file" //the last one is 
