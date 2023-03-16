@@ -1,0 +1,36 @@
+1) git config --global user.name Nilay
+2) git config --global user.email "adhikarinilay@gmail.com"
+3) git init
+4) git add .
+5) git commit -m "Initial Commit"
+6) git status //not required, just to check whether tree is clean or not
+
+7) //now generate new ssh key
+  git remote add origin (now paste your github repo's ssh id without inverted comma)
+
+8) git push origin master
+
+
+
+----------------------------------------------------------------------------------
+
+//Now suppose next day i've updated my file. So now how to push the updated file in github?
+
+1) git add .
+2) git commit -m "Added CheatSheet file" //the last one is 
+					//just a message.anything you can write
+
+3) git push origin master
+
+-----------------------------------------------------------------------------------
+
+//now let's pull the project after changing
+
+1) git pull origin master
+
+------------------------------------------------------------------------------------
+
+//you can check your project status as well
+
+1) git status
+2) git log
